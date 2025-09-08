@@ -1,0 +1,24 @@
+# Dependencies
+node_modules
+
+# Next.js
+.next
+out
+
+# Build artifacts
+dist
+build
+coverage
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn*.log
+pnpm-debug.log*
+
+# macOS
+.DS_Store
