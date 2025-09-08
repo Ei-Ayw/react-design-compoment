@@ -74,7 +74,7 @@ const MediaContent = ({ mediaType }: { mediaType: 'video' | 'image' }) => {
   );
 };
 
-export const VideoExpansionTextBlend = () => {
+export function VideoExpansionTextBlend() {
   const mediaType = 'video';
   const currentMedia = sampleMediaContent[mediaType];
 
